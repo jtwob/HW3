@@ -10,6 +10,9 @@ def multArray(arr):
         product*=i
     return product
 
+def reverseArray(arr):
+    return list(reversed(arr))
+
 def main():
     len = input("How long is the array: ")
 
