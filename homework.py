@@ -1,9 +1,11 @@
+#Adds elements of array
 def addArray(arr):
     sum = 0
     for i in arr:
         sum+=i
     return sum
 
+#Multiplies elements of array
 def multArray(arr):
     product = 1
     for i in arr:
