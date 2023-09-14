@@ -9,3 +9,13 @@ def multArray(arr):
     for i in arr:
         product*=i
     return product
+
+def main():
+    len = input("How long is the array: ")
+
+    arr = [int(x) for x in input("Enter " + len + " values separated by spaces: ").split()]
+
+    print("Sum: " + str(addArray(arr)))
+    print("Product: " + str(multArray(arr)))
+
+main()
